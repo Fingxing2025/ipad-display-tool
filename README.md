@@ -89,6 +89,10 @@ PYTHONPATH=src /usr/bin/python3 -m unittest discover -s tests -v
 
 测试覆盖屏幕布局保留、旋转和缩放后的几何关系、参数兼容与保存、错误共享来源、未完成授权等状态。真实设备串流仍需在 GNOME 桌面和 iPad 上验证。
 
+## 许可证
+
+本项目使用 [MIT 许可证](LICENSE)，允许使用、修改和分发。
+
 ## 参考
 
 - [Mutter DisplayConfig 接口](https://gitlab.gnome.org/GNOME/mutter/-/blob/50.1/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml)
