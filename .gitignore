@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.log
+core
+core.*
+backup*/
+sunshine.conf
+sunshine_state.json
+apps.json
+portal_token
+settings.json
+.DS_Store

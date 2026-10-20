@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>iPad 副屏</title>
+  <desc>蓝色电脑显示器与左侧的 iPad，代表扩展桌面。</desc>
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#1656B8"/>
+      <stop offset="1" stop-color="#32B9E8"/>
+    </linearGradient>
+    <linearGradient id="tablet" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#113A8C"/>
+      <stop offset="1" stop-color="#2397DE"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="270" cy="436" rx="190" ry="14" fill="#172B4D" opacity=".09"/>
+  <path d="M278 326h54l12 66h-78z" fill="#A9B8C9"/>
+  <path d="M278 326h54l8 50h-70z" fill="url(#metal)"/>
+  <rect x="234" y="386" width="142" height="24" rx="12" fill="#A9B8C9"/>
+  <rect x="234" y="382" width="142" height="22" rx="11" fill="url(#metal)"/>
+  <rect x="142" y="90" width="326" height="256" rx="26" fill="#9DAEBF"/>
+  <rect x="142" y="82" width="326" height="256" rx="26" fill="url(#metal)"/>
+  <rect x="158" y="98" width="294" height="204" rx="12" fill="url(#screen)"/>
+  <path d="M158 259c75-92 172-13 294-119v150a12 12 0 0 1-12 12H170a12 12 0 0 1-12-12z" fill="#78DCF0" opacity=".3"/>
+  <rect x="262" y="140" width="138" height="116" rx="12" fill="#0A397F" opacity=".2"/>
+  <rect x="254" y="132" width="138" height="116" rx="12" fill="#F5FBFF"/>
+  <path d="M266 132h114a12 12 0 0 1 12 12v16H254v-16a12 12 0 0 1 12-12z" fill="#CBE8F8"/>
+  <circle cx="270" cy="146" r="3" fill="#6C9BB8"/>
+  <circle cx="281" cy="146" r="3" fill="#6C9BB8"/>
+  <rect x="270" y="178" width="72" height="9" rx="4.5" fill="#5A9CCB"/>
+  <rect x="270" y="198" width="100" height="7" rx="3.5" fill="#C0D5E4"/>
+  <rect x="270" y="216" width="82" height="7" rx="3.5" fill="#C0D5E4"/>
+  <circle cx="305" cy="320" r="5" fill="#94A6B8"/>
+  <rect x="40" y="174" width="166" height="264" rx="27" fill="#102338" opacity=".16"/>
+  <rect x="36" y="166" width="166" height="264" rx="27" fill="#20364E"/>
+  <rect x="40" y="170" width="158" height="256" rx="24" fill="#314B67"/>
+  <rect x="50" y="184" width="138" height="224" rx="13" fill="url(#tablet)"/>
+  <path d="M50 341c35-58 86-21 138-85v139a13 13 0 0 1-13 13H63a13 13 0 0 1-13-13z" fill="#47C5EA" opacity=".35"/>
+  <rect x="68" y="232" width="102" height="104" rx="10" fill="#092D69" opacity=".2"/>
+  <rect x="64" y="226" width="102" height="104" rx="10" fill="#F5FBFF"/>
+  <path d="M74 226h82a10 10 0 0 1 10 10v16H64v-16a10 10 0 0 1 10-10z" fill="#CBE8F8"/>
+  <rect x="78" y="268" width="55" height="8" rx="4" fill="#5A9CCB"/>
+  <rect x="78" y="287" width="73" height="6" rx="3" fill="#C0D5E4"/>
+  <rect x="78" y="303" width="58" height="6" rx="3" fill="#C0D5E4"/>
+  <circle cx="119" cy="177" r="3" fill="#8AA4BD"/>
+  <rect x="96" y="414" width="46" height="4" rx="2" fill="#8AA4BD"/>
+</svg>

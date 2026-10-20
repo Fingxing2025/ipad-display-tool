@@ -1,0 +1,11 @@
+[Unit]
+Description=iPad virtual extended display
+PartOf=app-dev.lizardbyte.app.Sunshine.service
+Before=app-dev.lizardbyte.app.Sunshine.service
+After=graphical-session.target
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/python3 %h/.local/libexec/ipad-virtual-display.py
+TimeoutStartSec=30
+TimeoutStopSec=30
