@@ -4,6 +4,8 @@
 
 一个用于 **GNOME Wayland + Sunshine + Moonlight** 的中文桌面工具：把 iPad 当作电脑的独立扩展屏幕，并管理分辨率、刷新率、缩放和屏幕位置。
 
+完整教程：**[Linux + Sunshine + Moonlight：把 iPad 作为扩展副屏](docs/linux-sunshine-moonlight.md)**，包含首次配对、日常启动、参数调整、流程图和连接排查。
+
 <img src="docs/screenshot.png" alt="iPad 副屏设置窗口" width="520">
 
 ## 功能
@@ -62,7 +64,7 @@ Moonlight 的分辨率和帧率也需要与虚拟屏幕设置匹配。仅提高�
 
 ### 连接与共享
 
-电脑和 iPad 应能互相访问，例如处于同一局域网。工具首次启动时把 Sunshine 的捕获方式设为 `portal`。如果已有额外的 Sunshine 地址绑定或防火墙限制，仍需确保 iPad 可以访问该地址。
+电脑和 iPad 应能互相访问，例如处于同一局域网。工具创建或重建副屏时把 Sunshine 的捕获方式设为 `portal`。如果已有额外的 Sunshine 地址绑定或防火墙限制，仍需确保 iPad 可以访问该地址。
 
 此版本的启动流程会在创建和摆放虚拟屏幕后重新初始化桌面共享组件，以适应本机 GNOME 50 的输出变化问题；这可能中断其他应用正在进行的屏幕共享。
 
